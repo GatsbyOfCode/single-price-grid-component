@@ -11,6 +11,19 @@ html {
 
 body {
   background-color: #bfcaf7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 header {
@@ -42,7 +55,7 @@ button {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding: 2%;
+    padding: 1%;
   }
   header {
     position: relative;
@@ -59,21 +72,30 @@ button {
     width: 100%;
     font-size: 1.5rem;
     margin: 0;
-    padding: 2% 0 0 4%;
+    padding: 3% 0 0 5%;
     color: #2ab2af;
   }
   header h2 {
     margin: 0;
     font-size: 1.1rem;
     width: 100%;
-    padding: 4% 0 0 4%;
+    padding: 4% 0 0 5%;
     color: #c0df34;
   }
   header p {
     color: #98a6bd;
     width: 100%;
     font-size: 0.9rem;
-    padding: 1% 2% 1% 4%;
+    padding: 1% 2% 2% 5%;
+  }
+  .lRGrids {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   aside {
     height: 33%;
@@ -93,12 +115,12 @@ button {
   .left h2 {
     width: 100%;
     font-size: 1.2rem;
-    padding: 2% 4% 4% 4%;
+    padding: 2% 4% 4% 5%;
     margin-bottom: 0;
   }
   .left p {
     font-size: 0.9rem;
-    padding: 1% 4% 4% 4%;
+    padding: 1% 4% 4% 5%;
     margin: 0;
     color: #e5eff5;
   }
@@ -110,7 +132,7 @@ button {
     height: 2.4rem;
     font-size: 1.2rem;
     width: 80%;
-    margin: 5% 0 9% 10%;
+    margin: 5% 0 9% 5%;
   }
   .right {
     display: -webkit-box;
@@ -126,7 +148,7 @@ button {
   .right h2 {
     font-size: 1.2rem;
     width: 100%;
-    padding: 4%;
+    padding: 5%;
     margin: 0;
   }
   .right ul {
@@ -134,11 +156,12 @@ button {
     list-style: none;
     width: 100%;
     font-size: 0.9rem;
+    padding: 0 0 0 5%;
+    margin-top: 0;
   }
   li {
     width: 100%;
     padding: 1% 0;
-    margin-left: -11%;
     color: #e5eff5;
   }
 }
@@ -153,15 +176,17 @@ button {
         -ms-flex-direction: column;
             flex-direction: column;
     padding: 1%;
+    margin-top: 4%;
+    height: auto;
+    width: 65%;
   }
   header {
     position: relative;
-    width: 60%;
-    margin: 3% 0 0 20%;
+    width: 100%;
   }
   header h1 {
     width: 100%;
-    padding: 1% 0 1% 4%;
+    padding: 3% 0 1% 4%;
     margin: 0;
     font-size: 1.7rem;
     color: #2ab2af;
@@ -177,22 +202,28 @@ button {
     width: 70%;
     margin: 0;
     font: 1rem;
-    padding: 1% 0 8% 4%;
+    padding: 1% 0 5% 4%;
     line-height: 1.7rem;
     color: #98a6bd;
   }
+  .lRGrids {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
   aside {
-    width: 30%;
+    width: 50%;
     position: relative;
+    padding-bottom: 5%;
   }
   .left {
     position: relative;
-    margin-left: 20%;
     background-color: #2ab2af;
   }
   .left h2 {
     width: 100%;
-    padding-left: 6%;
+    padding-left: 7%;
     font-size: 1.2rem;
     color: #ffffff;
   }
@@ -200,8 +231,8 @@ button {
     width: 100%;
     color: #e5eff5;
     margin: 0;
-    padding-left: 6%;
-    padding-bottom: 2%;
+    padding-left: 7%;
+    padding-bottom: 3%;
   }
   strong {
     font-size: 2rem;
@@ -209,20 +240,17 @@ button {
   }
   button {
     width: 60%;
-    height: 2.4rem;
+    height: 2.5rem;
     font-size: 1.2rem;
-    margin: 2% 0 8% 6%;
+    margin: 5% 0 0 7%;
   }
   .right {
-    margin: -15.5% 0 0 50%;
     background-color: #41c8c6;
     color: #ffffff;
-    padding-bottom: 1.35%;
   }
   .right h2 {
     width: 100%;
-    margin: 4% 0 0 0;
-    padding-left: 6%;
+    padding-left: 9%;
     font-size: 1.2rem;
   }
   ul {
@@ -236,7 +264,6 @@ button {
     width: 100%;
     padding-top: 1%;
     font-size: 0.9rem;
-    margin-left: -5%;
     color: #e5eff5;
   }
 }
